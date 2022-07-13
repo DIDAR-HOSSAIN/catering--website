@@ -1,22 +1,109 @@
+body{
+    margin: 0;
+}
+
+
 .firstSection{
     display: flex;
+    width: 100%;
 
 }
 
 .firstDiv{
-    /* width: 50%; */
+    width: 50%;
     padding: 50px;
 
 }
 
-.fstwid{
-    width: 30%;
-}
-
 .firstDiv img{
-    width: 70%;
+    width: 100%;
 }
 
 .fnt{
-    font-size: 50px;
+    font-size: 100px;
 }
+
+.orderButton{
+    text-decoration: none;
+    background-color:orange;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 35px;
+    display: inline-block;
+    font-weight: 300px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+.secondSection{
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(images/shapes/7.png);
+    background-size: 100%;
+
+}
+
+.secondDiv img{
+    margin-left: 15%;
+    
+}
+
+.secondDiv{
+    width: 100%;
+}
+
+/* 3rd section :start */
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.thirdSectionMainDiv{
+    display: flex;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.thirdDiv img{
+    width: 90%;
+    height: 60%;
+    margin: 6%;
+    
+}
+
+.thirdDiv{
+    width: 50%;
+    box-shadow: 10px 10px 10px 10px rgb(245, 233, 233);
+    border-radius: 40px;
+    margin: 1%;
+   
+
+}
+
+
+/* 3rd section :end */
+
+
+/* fourthSection :start */
+.fourthSection{
+    display: flex;
+    box-shadow: 20px 20px 20px 20px rgb(231, 222, 222);
+    margin: 5%;
+    border-radius: 2%;
+    justify-content: space-around;
+}
+
+/* fourthSection :end */
+
+
+/* footer section :start */
+footer{
+    background-color: black;
+    padding: 30px;
+}
+/* footer section :end */
